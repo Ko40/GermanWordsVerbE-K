@@ -98,80 +98,80 @@
 <script>
   // 単語リスト（ドイツ語 - 日本語）
   const wordList = [
-    { german: 'eilen', english: '緊急時に急いでいく' },
-    { german: 'einführen', english: '輸入する' },
-    { german: 'einkaufen', english: '買い物をする' },
-    { german: 'einladen', english: '招待する' },
-    { german: 'einnehmen', english: '薬を服用する' },
-    { german: 'einschlafen', english: '眠り込む' },
-    { german: 'einsteigen', english: '乗り物に乗る' },
-    { german: 'eintreten', english: '部屋などに入る' },
-    { german: 'empfangen', english: '受け取る' },
-    { german: 'empfinden', english: '感じる' },
-    { german: 'empfehlen', english: '勧める' },
-    { german: 'enden', english: '終わる' },
-    { german: 'entdecken', english: '発見する' },
-    { german: 'enthalten', english: '含む' },
-    { german: 'entscheiden', english: 'と決める' },
-    { german: 'entschuldigen', english: '許す' },
-    { german: 'entwickeln', english: '発展する' },
-    { german: 'erfahren', english: '聞いたりして知る' },
-    { german: 'erfinden', english: '発明する' },
-    { german: 'erholen', english: '休養する' },
-    { german: 'erkälten', english: '風邪をひく' },
-    { german: 'erkennen', english: '識別する' },
-    { german: 'erlauben', english: '許可する' },
-    { german: 'erreichen', english: '到達する' },
-    { german: 'erscheinen', english: '現れる' },
-    { german: 'erzählen', english: '物語る' },
-    { german: 'essen', english: '食べる' },
-    { german: 'fahren', english: '乗り物で行く' },
-    { german: 'fallen', english: '落ちる' },
-    { german: 'fangen', english: '捕まえる' },
-    { german: 'fehlen', english: '欠けている' },
-    { german: 'feiern', english: '祝う' },
-    { german: 'fernsehen', english: 'テレビを見る' },
-    { german: 'finden', english: '見つける' },
-    { german: 'fliegen', english: '飛行機で行く' },
-    { german: 'fließen', english: '流れる' },
-    { german: 'forschen', english: '研究する' },
-    { german: 'fotografieren', english: '写真を撮る' },
-    { german: 'frieren', english: '凍る' },
-    { german: 'fühlen', english: '感じる' },
-    { german: 'führen', english: '連れていく' },
-    { german: 'frühstücken', english: '朝食を食べる' },
-    { german: 'geben', english: '与える' },
-    { german: 'gefallen', english: '気に入る' },
-    { german: 'gehen', english: '行く' },
-    { german: 'gehören', english: '～のものである' },
-    { german: 'gelangen', english: '～に達する' },
-    { german: 'gelingen', english: '成功する' },
-    { german: 'genießen', english: '楽しむ' },
-    { german: 'genügen', english: '十分である' },
-    { german: 'geschehen', english: '起こる' },
-    { german: 'gewinnen', english: '勝つ' },
-    { german: 'grüßen', english: '挨拶をする' },
-    { german: 'haben', english: '持っている' },
-    { german: 'halten', english: '～と思う' },
-    { german: 'handeln', english: '行動する' },
-    { german: 'hängen', english: 'かかっている、かける' },
-    { german: 'hassen', english: '憎む' },
-    { german: 'helfen', english: '助ける' },
-    { german: 'heiraten', english: '結婚する' },
-    { german: 'heißen', english: '～という名前である' },
-    { german: 'herrschen', english: '支配する' },
-    { german: 'hoffen', english: '望む' },
-    { german: 'holen', english: '持ってくる' },
-    { german: 'hören', english: '聞こえる' },
-    { german: 'kämpfen', english: '戦う' },
-    { german: 'kaufen', english: '買う' },
-    { german: 'kennen', english: '知っている' },
-    { german: 'kennenlernen', english: '知り合う' },
-    { german: 'klopfen', english: 'たたく' },
-    { german: 'kochen', english: '料理する' },
-    { german: 'kommen', english: '来る' },
-    { german: 'kosten', english: '～の値段である' },
-    { german: 'küssen', english: 'キスをする' },
+    { german: 'eilen', english: '急いで行く/急ぐ' },  // 修正: "緊急時に急いでいく"をより一般的な表現に
+{ german: 'einführen', english: '輸入する/導入する' },  // "導入する"も追加
+{ german: 'einkaufen', english: '買い物をする' },
+{ german: 'einladen', english: '招待する' },
+{ german: 'einnehmen', english: '薬を服用する/摂取する' },  // "摂取する"も追加
+{ german: 'einschlafen', english: '眠りにつく/寝入る' },  // "眠り込む"はやや強い表現なので修正
+{ german: 'einsteigen', english: '乗る/乗り込む' },  // "乗り物に乗る"を簡略化
+{ german: 'eintreten', english: '入る/参加する' },  // "部屋などに入る"を簡略化し、"参加する"も追加
+{ german: 'empfangen', english: '受け取る/迎える' },  // "迎える"も追加
+{ german: 'empfinden', english: '感じる' },
+{ german: 'empfehlen', english: '勧める/推薦する' },  // "推薦する"も追加
+{ german: 'enden', english: '終わる' },
+{ german: 'entdecken', english: '発見する' },
+{ german: 'enthalten', english: '含む' },
+{ german: 'entscheiden', english: '決める/判断する' },  // "と決める"を修正し、"判断する"を追加
+{ german: 'entschuldigen', english: '謝罪する/許す' },  // "許す"に加えて"謝罪する"も追加
+{ german: 'entwickeln', english: '発展させる/開発する' },  // "発展する"を"発展させる"に修正し、"開発する"も追加
+{ german: 'erfahren', english: '知る/経験する' },  // "聞いたりして知る"を簡略化し、"経験する"を追加
+{ german: 'erfinden', english: '発明する' },
+{ german: 'erholen', english: '休養する/休む' },  // "休む"も追加
+{ german: 'erkälten', english: '風邪をひく' },
+{ german: 'erkennen', english: '認識する/識別する' },  // "識別する"に加えて"認識する"を追加
+{ german: 'erlauben', english: '許可する' },
+{ german: 'erreichen', english: '到達する/達成する' },  // "達成する"を追加
+{ german: 'erscheinen', english: '現れる/出版される' },  // "出版される"を追加
+{ german: 'erzählen', english: '物語る/話す' },  // "話す"を追加
+{ german: 'essen', english: '食べる' },
+{ german: 'fahren', english: '乗り物で行く/運転する' },  // "運転する"も追加
+{ german: 'fallen', english: '落ちる' },
+{ german: 'fangen', english: '捕まえる/捕る' },  // "捕る"を追加
+{ german: 'fehlen', english: '欠けている/不足している' },  // "不足している"を追加
+{ german: 'feiern', english: '祝う/お祝いをする' },  // "お祝いをする"も追加
+{ german: 'fernsehen', english: 'テレビを見る' },
+{ german: 'finden', english: '見つける' },
+{ german: 'fliegen', english: '飛行機で行く/飛ぶ' },  // "飛ぶ"を追加
+{ german: 'fließen', english: '流れる' },
+{ german: 'forschen', english: '研究する' },
+{ german: 'fotografieren', english: '写真を撮る' },
+{ german: 'frieren', english: '凍る/寒がる' },  // "寒がる"を追加
+{ german: 'fühlen', english: '感じる' },
+{ german: 'führen', english: '連れていく/案内する' },  // "案内する"を追加
+{ german: 'frühstücken', english: '朝食を食べる' },
+{ german: 'geben', english: '与える/あげる' },  // "あげる"を追加
+{ german: 'gefallen', english: '気に入る/好きになる' },  // "好きになる"を追加
+{ german: 'gehen', english: '行く' },
+{ german: 'gehören', english: '～のものである/属する' },  // "属する"を追加
+{ german: 'gelangen', english: '達する/到達する' },  // "～に達する"を簡略化
+{ german: 'gelingen', english: '成功する' },
+{ german: 'genießen', english: '楽しむ' },
+{ german: 'genügen', english: '十分である' },
+{ german: 'geschehen', english: '起こる' },
+{ german: 'gewinnen', english: '勝つ/獲得する' },  // "獲得する"を追加
+{ german: 'grüßen', english: '挨拶をする' },
+{ german: 'haben', english: '持っている' },
+{ german: 'halten', english: '思う/保つ' },  // "保つ"を追加
+{ german: 'handeln', english: '行動する/取引する' },  // "取引する"を追加
+{ german: 'hängen', english: '掛かっている/掛ける' },  // 修正: "かかっている、かける" → "掛かっている/掛ける"
+{ german: 'hassen', english: '憎む/嫌う' },  // "嫌う"を追加
+{ german: 'helfen', english: '助ける' },
+{ german: 'heiraten', english: '結婚する' },
+{ german: 'heißen', english: '～という名前である' },
+{ german: 'herrschen', english: '支配する' },
+{ german: 'hoffen', english: '望む/期待する' },  // "期待する"を追加
+{ german: 'holen', english: '持ってくる/取りに行く' },  // "取りに行く"を追加
+{ german: 'hören', english: '聞こえる/聞く' },  // "聞く"を追加
+{ german: 'kämpfen', english: '戦う/争う' },  // "争う"を追加
+{ german: 'kaufen', english: '買う' },
+{ german: 'kennen', english: '知っている' },
+{ german: 'kennenlernen', english: '知り合う/出会う' },  // "出会う"を追加
+{ german: 'klopfen', english: '叩く/ノックする' },  // "ノックする"を追加
+{ german: 'kochen', english: '料理する/煮る' },  // "煮る"を追加
+{ german: 'kommen', english: '来る' },
+{ german: 'kosten', english: '～の値段である/費用がかかる' },  // "費用がかかる"を追加
+{ german: 'küssen', english: 'キスをする' },
     // 他の単語を追加
   ];
 
